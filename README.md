@@ -46,14 +46,24 @@ Some important arguments for our code.
 
 Experimental results on few-shot learning datasets with ResNet-12 backbone. We report our average results with 10000 randomly sampled episodes for both 1-shot and 5-shot evaluations.
 
-**MiniImageNet Dataset**
+**MiniImageNet Dataset (indcutive)**
 
 |  Methods  | 1-Shot 5-Way | 5-Shot 5-Way |   
 |:--------:|:------------:|:------------:|
-| Method 1 |     00.00    |     00.00    |
-| method 2 |     **00.00**    |     **00.00**    |
-| method 3  |     **00.00**    |     **00.00**    | 
-| method 4 |     **00.00**    |     **00.00**    | 
+| SimpleShot |     62.85 ± 0.20    |     80.02 ± 0.14    |
+| Baseline++  |    53.97 ± 0.79 | 75.90 ± 0.61|
+| TADAM | 58.50 ± 0.30 | 76.70 ± 0.30|
+|ProtoNet [10] | 60.37 ± 0.83 | 78.02 ± 0.57|
+|R2-D2 (+ens) [20] | 64.79 ± 0.45 | 81.08 ± 0.32|
+|FEAT [36] | 66.78 | 82.05|
+|CNL [37] | 67.96 ± 0.98 | 83.36 ± 0.51|
+|MERL [38] | 67.40 ± 0.43 | 83.40 ± 0.28|
+|Deep EMD v2 [13] | 68.77 ± 0.29 | 84.13 ± 0.53|
+|PAL [8] | 69.37 ± 0.64 | 84.40 ± 0.44|
+|inv-equ [39] | 67.28 ± 0.80 | 84.78 ± 0.50|
+|CSEI [40] | 68.94 ± 0.28 | 85.07 ± 0.50|
+|COSOC [9] | 69.28 ± 0.49 | 85.16 ± 0.42|
+|EASY 2×ResNet12 1sqrt(2)(ours) | 70.63 ± 0.20 | 86.28 ± 0.12 |
 
 **TieredImageNet Dataset**
 
